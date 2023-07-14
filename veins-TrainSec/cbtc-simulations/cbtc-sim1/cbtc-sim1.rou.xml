@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vType id="rail_rail" vClass="rail" length="139.14" accel="0.9" decel="1.35" emergencyDecel="1.5" sigma="1.0" maxSpeed="24.44"/>
+
+    <route id="route1" edges="E" />
+    
+    <vehicle depart="0" id="train_0" route="route1" type="rail_rail"/>
+    <vehicle depart="90" id="train_1" route="route1" type="rail_rail"/>
+    <vehicle depart="180" id="train_2" route="route1" type="rail_rail"/>
+    <vehicle depart="270" id="train_3" route="route1" type="rail_rail"/>
+    <vehicle depart="360" id="train_4" route="route1" type="rail_rail"/>
+    <vehicle depart="450" id="train_5" route="route1" type="rail_rail"/>
+    <!-- -->
+    
+    
+</routes>
+
