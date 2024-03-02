@@ -19,22 +19,22 @@ A scientific publication is [available](https://link.springer.com/chapter/10.100
 ```
 
 ## Features
-– Modeling cyber attacks and misbehavior algorithms in CBTC networks.\
-– Implementing detection and mitigation algorithms.\
-– Utilizing the provided misbehavior algorithms.\
-– Evaluating the performance and effectiveness of the implemented algorithms.\
-– Extracting datasets for data visualization purposes.
+
+- Modeling cyber attacks and misbehavior algorithms in CBTC networks.
+- Implementing detection and mitigation algorithms.
+- Utilizing the provided misbehavior algorithms.
+- Evaluating the performance and effectiveness of the implemented algorithms.
+- Extracting datasets for data visualization purposes.
 
 
 ## TrainSec Framework Architecture
 <img src="TrainSec%20framework%20architecture.png" alt="TrainSec framework architecture" width="681" height="1152">
 
+Following is a mapping of the framework components to their corresponding files and folders in the code:
 
-TrainSec components  C:\Users\Amin\Veins\veins-veins-5.1\src\veins\modules\application\cbtcSim
-
-VEINS components
-SUMO-Scenario Manager   C:\Users\Amin\Veins\veins-veins-5.1\cbtc-simulations\cbtc-sim1\cbtc-sim1.launchd.xml
-OMNET_NetworkConfigurator   C:\Users\Amin\Veins\veins-veins-5.1\cbtc-simulations\cbtc-sim1\omnetpp.ini
+- TrainSec components: veins-TrainSec\src\veins\modules\application\cbtcSim
+- VEINS components\SUMO-Scenario Manager: veins-TrainSec\cbtc-simulations\cbtc-sim1\cbtc-sim1.launchd.xml
+- VEINS components\OMNET_NetworkConfigurator: veins-TrainSec\cbtc-simulations\cbtc-sim1\omnetpp.ini
 
 
 ## Installation
