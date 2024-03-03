@@ -1,6 +1,6 @@
 # TrainSec
 
-This project presents TrainSec, a simulation framework that facilitates security modeling and evaluation in networks of Communication-Based Train Control (CBTC) systems. The framework simulates components and communications in CBTC networks according to [IEEE 1474.1](https://doi.org/10.1109/IEEESTD.2004.95746) the standard for CBTC performance and functional requirements. 
+This project presents TrainSec, a simulation framework that facilitates security modeling and evaluation in networks of Communication-Based Train Control (CBTC) systems. The framework simulates components and communications in CBTC networks according to [IEEE 1474.1](https://doi.org/10.1109/IEEESTD.2004.95746), the standard for CBTC performance and functional requirements. 
 
 
 
@@ -32,10 +32,17 @@ A scientific publication is [available](https://link.springer.com/chapter/10.100
 
 Following is a mapping of the framework components to their corresponding files and folders in the code:
 
-- TrainSec components: veins-TrainSec\src\veins\modules\application\cbtcSim
-- VEINS components\SUMO-Scenario Manager: veins-TrainSec\cbtc-simulations\cbtc-sim1\cbtc-sim1.launchd.xml
-- VEINS components\OMNET_NetworkConfigurator: veins-TrainSec\cbtc-simulations\cbtc-sim1\omnetpp.ini
+- **TrainSec components:** veins-TrainSec\src\veins\modules\application\cbtcSim
+- **VEINS components\SUMO-Scenario Manager:** veins-TrainSec\cbtc-simulations\cbtc-sim1\cbtc-sim1.launchd.xml
+- **VEINS components\OMNET_NetworkConfigurator:** veins-TrainSec\cbtc-simulations\cbtc-sim1\omnetpp.ini
 
 
 ## Installation
-This subsection describes the installation procedure
+- [Download SUMO](https://sourceforge.net/projects/sumo/files/sumo/) (Recommended version: 1.9.2).
+- [Download and build OMNeT++](https://omnetpp.org/download/) (Recommended version: 5.6.2).
+- [Download and build Veins](https://veins.car2x.org/download/) (Recommended version: 5.1).
+- Replace the Veins project by the provided ***veins-TrainSec*** project, or place the framework architecture components in their corresponding directories as explained above.
+
+### Useful resources related to installation:
+- [Veins installation tutorial](https://veins.car2x.org/tutorial/)
+- [Getting started with OMNET++, INET, Veins, and SUMO by Dr. Joanne Skiles](https://www.youtube.com/watch?v=PfAWhrmoYgM)
